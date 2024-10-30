@@ -1,0 +1,13 @@
+<form  >
+    <label for ="">Enter Username:</label>
+    <input type="text" name="userName" [(ngModel)]="userName">
+
+    <label for ="password">Enter password:</label>
+    <input type="text" name="password" [(ngModel)]="password">
+
+    <label for ="roles">Roles:</label>
+    <input type="text" name="roles" [(ngModel)]="roles">
+
+     <button (click)="onSubmit()">Login</button>
+
+</form>
